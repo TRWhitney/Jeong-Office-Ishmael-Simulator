@@ -148,9 +148,9 @@ Post-resolution:
 
 --------------------------------------------------------------------------------
 ## 6) Acceptance Checklist
-- [ ] Offer persists; refill to 2 at start; **second becomes first** whenever the first is used or discarded
-- [ ] Attack use: unpicked card discarded iff its color ≠ used card’s color; same-color persists
-- [ ] Defend: discards first; 50% Bright +1; suit shuffles next turn
-- [ ] EGO: always matches Suit; discards first; **Bright +2**
-- [ ] S3 grants **+1 extra Potency on use** (in addition to any match Potency)
-- [ ] Cycle ends at Potency==5 or Count==0; **Kōzan uses independent flips (p(Heads)=0.95) and totals Heads**; cycle resets and Suit re-assigned
+- [x] Offer persists; refill to 2 at start; **second becomes first** whenever the first is used or discarded
+- [x] Attack use: unpicked card discarded iff its color ≠ used card’s color; same-color persists
+- [x] Defend: discards first; 50% Bright +1; suit shuffles next turn
+- [x] EGO: always matches Suit; discards first; **Bright +2**
+- [x] S3 grants **+1 extra Potency on use** (in addition to any match Potency)
+- [x] Cycle ends at Potency==5 or Count==0; **Kōzan uses independent flips (p(Heads)=0.95) and totals Heads**; cycle resets and Suit re-assigned
