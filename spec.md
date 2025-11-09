@@ -53,7 +53,7 @@ Constraints: Language/OS agnostic. No speed dice/turn order. Include a skill dec
 - On **Match** with S1/S2/S3: `brightPotency += 1` (cap 5)
 - **S3 bonus**: whenever **S3** is used (match or mismatch), add **`+1` additional Potency** (cap 5)
 - **EGO**: always counts as matching; grant **`+2` Potency** (cap 5)
-- Optional: if previous turn also matched within the same cycle, add **`+1`** (toggleable)
+- If previous turn also matched within the same cycle, add **`+1`**
 - On other **Mismatch** cases: `+0`
 
 ### 3.3 Jeong attack discard (offer persistence + ordering)
