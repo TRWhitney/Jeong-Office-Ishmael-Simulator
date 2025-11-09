@@ -1,0 +1,25 @@
+[project]
+name = "jeongsimulator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Whitney White", email = "trwhitneywhite@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+jeongsimulator = "jeongsimulator:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.0",
+    "pytest-cov>=7.0.0",
+    "pytest-randomly>=4.0.1",
+    "ruff>=0.14.4",
+]
